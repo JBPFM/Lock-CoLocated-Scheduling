@@ -1,0 +1,32 @@
+# Build artifacts
+*.o
+*.a
+*.so
+*.d
+*.dwo
+*.out
+*.elf
+*.ll
+*.bc
+*.dSYM/
+
+# Generated eBPF artifacts
+scx/vmlinux.h
+launcher/*.skel.h
+
+# Binaries
+launcher/lh_launcher
+tests/bench_mutex
+tests/bench_realistic
+tests/test_handoff
+
+# Bench outputs
+results/
+leveldb_bench_results.csv
+
+# Editor/OS
+*.swp
+*~
+.DS_Store
+.vscode/
+.idea/

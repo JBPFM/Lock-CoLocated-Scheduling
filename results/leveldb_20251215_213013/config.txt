@@ -1,9 +1,0 @@
-Test Configuration
-==================
-Date: Mon Dec 15 09:30:13 PM CST 2025
-Kernel: 6.16.12-061612-generic
-CPU: Intel(R) Xeon(R) Gold 5318Y CPU @ 2.10GHz
-CPU Cores: 96
-DB_BENCH: /home/jz/test/test/leveldb/build/db_bench
-NUM: 100000
-THREADS: 1 2 4 8 16 32 64 128 256
